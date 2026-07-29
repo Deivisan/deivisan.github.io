@@ -2,7 +2,7 @@
 
 ## 🚀 Visão Geral
 
-Hub central do ecossistema digital de **Deivison Santana** — Desenvolvedor Junior & Fundador da DeiviTech.
+Hub central do ecossistema digital de **Deivison Santana** — Desenvolvedor Full Stack & Fundador da DeiviTech.
 
 Este site é a **vitrine que conecta todos os meus outros sites e projetos** no GitHub Pages. Aqui você encontra:
 

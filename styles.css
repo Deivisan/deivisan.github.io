@@ -523,3 +523,151 @@ html {
     scroll-behavior: auto;
   }
 }
+
+/* ════════════════ HUB — HERO ALTERNATIVO ════════════════ */
+.hero-alt {
+  background: linear-gradient(135deg, var(--background-dark) 0%, var(--background-light) 100%);
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.hero-alt .hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-alt .subtitle {
+  font-size: 1.4rem;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+
+.hero-alt .description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+}
+
+/* ════════════════ SEÇÃO ALTERNATIVA ════════════════ */
+.section-alt {
+  background: var(--background-light);
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ════════════════ PAGES GRID ════════════════ */
+.pages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.page-card {
+  background: var(--background-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.page-card:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.page-icon {
+  font-size: 2.5rem;
+}
+
+.page-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.page-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.page-tag {
+  display: inline-block;
+  background: var(--gradient-primary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+/* ════════════════ QUICK STATS ════════════════ */
+.quick-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.stat-card {
+  background: var(--background-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--accent-color);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+
+/* ════════════════ FOOTER LINKS ════════════════ */
+.footer-links {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+/* ════════════════ RESPONSIVE ════════════════ */
+@media (max-width: 768px) {
+  .hero-alt {
+    padding: 3rem 0;
+  }
+
+  .hero-alt .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .pages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
